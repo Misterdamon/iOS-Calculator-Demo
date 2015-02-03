@@ -472,6 +472,7 @@
                     </view>
                     <connections>
                         <outlet property="resultView" destination="ajF-0E-V94" id="3t7-ae-6wc"/>
+                        <outletCollection property="calcButtons" destination="G6b-Je-Kek" collectionClass="NSMutableArray" id="eiD-Fw-bRx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

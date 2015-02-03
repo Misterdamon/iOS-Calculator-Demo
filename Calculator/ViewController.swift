@@ -10,9 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
   
+  @IBOutlet var calcButtons: [UIButton]!
   @IBOutlet weak var resultView: UILabel!
   var userIsTyping = false
   var inputStack = [String]()
+  
+  
+   override func viewDidLoad(){
+    println(calcButtons.count)
+    for item in calcButtons {
+      println(item)
+      item.layer.cornerRadius = 30.0
+//      item.layer.borderColor = UIColor.redColor()
+      item.layer.borderWidth = 1.5
+    }
+  }
   
 
   @IBAction func clearInput(sender: UIButton) {
