@@ -14,6 +14,7 @@
 		A567BE0B1A803B780046133A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A567BE0A1A803B780046133A /* Images.xcassets */; };
 		A567BE0E1A803B780046133A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A567BE0C1A803B780046133A /* LaunchScreen.xib */; };
 		A567BE1A1A803B780046133A /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A567BE191A803B780046133A /* CalculatorTests.swift */; };
+		A567BE261A814B700046133A /* button (1).png in Resources */ = {isa = PBXBuildFile; fileRef = A567BE251A814B700046133A /* button (1).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A567BE131A803B780046133A /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A567BE181A803B780046133A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A567BE191A803B780046133A /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		A567BE251A814B700046133A /* button (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button (1).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				A567BE001A803B780046133A /* AppDelegate.swift */,
 				A567BE051A803B780046133A /* ViewController.swift */,
 				A567BE071A803B780046133A /* Main.storyboard */,
+				A567BE251A814B700046133A /* button (1).png */,
 				A567BE0A1A803B780046133A /* Images.xcassets */,
 				A567BE0C1A803B780046133A /* LaunchScreen.xib */,
 				A567BE021A803B780046133A /* Calculator.xcdatamodeld */,
@@ -198,6 +201,7 @@
 				A567BE091A803B780046133A /* Main.storyboard in Resources */,
 				A567BE0E1A803B780046133A /* LaunchScreen.xib in Resources */,
 				A567BE0B1A803B780046133A /* Images.xcassets in Resources */,
+				A567BE261A814B700046133A /* button (1).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

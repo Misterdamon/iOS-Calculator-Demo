@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController {
   
@@ -17,12 +18,16 @@ class ViewController: UIViewController {
   
   
    override func viewDidLoad(){
-    println(calcButtons.count)
+    
+    resultView.layer.cornerRadius = 5.0
+    resultView.layer.borderWidth = 2
+    resultView.layer.borderColor = UIColor.grayColor().CGColor
+    resultView.layer.sublayerTransform = CATransform3DMakeTranslation(-50, 0, 0);
     for item in calcButtons {
       println(item)
-      item.layer.cornerRadius = 30.0
-//      item.layer.borderColor = UIColor.redColor()
-      item.layer.borderWidth = 1.5
+      item.layer.cornerRadius = 10.0
+      item.layer.borderColor = UIColor.grayColor().CGColor
+      item.layer.borderWidth = 5
     }
   }
   
