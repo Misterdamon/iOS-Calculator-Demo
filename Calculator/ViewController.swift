@@ -22,13 +22,7 @@ class ViewController: UIViewController {
     resultView.layer.cornerRadius = 5.0
     resultView.layer.borderWidth = 2
     resultView.layer.borderColor = UIColor.grayColor().CGColor
-    resultView.layer.sublayerTransform = CATransform3DMakeTranslation(0, 5, 0);
-//    for item in calcButtons {
-//      println(item)
-////      item.layer.cornerRadius = 10.0
-////      item.layer.borderColor = UIColor.grayColor().CGColor
-////      item.layer.borderWidth = 5
-//    }
+
   }
   
 
