@@ -22,13 +22,13 @@ class ViewController: UIViewController {
     resultView.layer.cornerRadius = 5.0
     resultView.layer.borderWidth = 2
     resultView.layer.borderColor = UIColor.grayColor().CGColor
-    resultView.layer.sublayerTransform = CATransform3DMakeTranslation(-50, 0, 0);
-    for item in calcButtons {
-      println(item)
-      item.layer.cornerRadius = 10.0
-      item.layer.borderColor = UIColor.grayColor().CGColor
-      item.layer.borderWidth = 5
-    }
+    resultView.layer.sublayerTransform = CATransform3DMakeTranslation(0, 5, 0);
+//    for item in calcButtons {
+//      println(item)
+////      item.layer.cornerRadius = 10.0
+////      item.layer.borderColor = UIColor.grayColor().CGColor
+////      item.layer.borderWidth = 5
+//    }
   }
   
 
@@ -62,12 +62,11 @@ class ViewController: UIViewController {
   
   @IBAction func performOperation(){
     inputStack.append(resultView.text!)
+    let op1 = (inputStack.removeAtIndex(0) as NSString).doubleValue
     
-//    if inputStack.count > 0 {
-      let op1 = (inputStack.removeAtIndex(0) as NSString).doubleValue
+    if inputStack.count >= 2 {
       let operation = inputStack.removeAtIndex(0)
       let op2 = (inputStack.removeAtIndex(0) as NSString).doubleValue
-//    }
     
       switch operation {
       case "×":  resultView.text = "\(op1 * op2)";
@@ -77,6 +76,7 @@ class ViewController: UIViewController {
       case "√": resultView.text = "\(sqrt(op1))"
       default: break;
       
+      }
     }
   }
   
