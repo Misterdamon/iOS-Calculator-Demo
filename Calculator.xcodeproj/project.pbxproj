@@ -411,6 +411,7 @@
 				A567BE1F1A803B780046133A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A567BE201A803B780046133A /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				A567BE221A803B780046133A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
